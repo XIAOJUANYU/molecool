@@ -12,7 +12,15 @@ def open_pdb(file_location):
 
     Parameters
     ---------
-
+    file_location : str
+        the location of the pdb file to read in
+    
+    Returns
+    -------
+    coords : np.ndarray
+        The coordinates from the pdb file
+    symbols : list
+        The atomic symbols from the pdb file.
     """
     # This function reads in a pdb file and returns the atom names and coordinates.
     with open(file_location) as f:
