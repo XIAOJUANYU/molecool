@@ -5,7 +5,11 @@ molecool
 [![AppVeyor Build status](https://ci.appveyor.com/api/projects/status/REPLACE_WITH_APPVEYOR_LINK/branch/master?svg=true)](https://ci.appveyor.com/project/REPLACE_WITH_OWNER_ACCOUNT/molecool/branch/master)
 [![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molecool/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molecool/branch/master)
 
-a python package for analyzing and virualizing xyz file for molssi best practices workshop
+a python package for analyzing and virualizing xyz file for molssi best practices workshop.
+
+To do a developmental install type
+
+`pip install -e .`
 
 ### Copyright
 
