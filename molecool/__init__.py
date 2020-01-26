@@ -7,7 +7,7 @@ a python package for analyzing and virualizing xyz file for molssi best practice
 from .functions import *
 from .measure import calculate_angle, calculate_distance
 from .visulize import draw_molecule, bond_histogram
-from .molecule import build_bond_list, calculate_molecular_mass
+from .molecule import build_bond_list
 from .atom_data import atomic_colors, atomic_weights
 
 import molecool.io
